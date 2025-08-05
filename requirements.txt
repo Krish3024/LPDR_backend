@@ -1,6 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-multipart
+# Core ML & Image Processing
+torch==2.3.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+ultralytics
 opencv-python
 numpy
-pillow
+Pillow
+easyocr
