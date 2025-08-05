@@ -7,7 +7,6 @@ import cv2
 import numpy as np
 import re
 import shutil
-import torch
 from ultralytics import YOLO
 import easyocr
 
