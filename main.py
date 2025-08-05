@@ -34,7 +34,7 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 import gdown
 
 MODEL_PATH = "best.pt"
-MODEL_DRIVE_ID = "1rufCfEoeSlNkSE3V--1h2oopm2zNBade"
+MODEL_DRIVE_ID = "14jgW_QdzbC0IcemppfOSMewPdAX863LS"
 
 def download_model():
     if not os.path.exists(MODEL_PATH):
